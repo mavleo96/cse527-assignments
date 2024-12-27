@@ -1,3 +1,6 @@
 coco/
 **/*.cache
 part1/runs/
+part2/detr/checkpoints/
+part3/unet/*.pth
+part3/unet/images/
