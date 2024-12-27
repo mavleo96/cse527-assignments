@@ -11,3 +11,4 @@ hw3/part1/CryoEM/labels/*/*.txt filter=lfs diff=lfs merge=lfs -text
 hw3/part1/CryoEM/particle_coordinates/*.csv filter=lfs diff=lfs merge=lfs -text
 hw3/part1/calibri.ttf filter=lfs diff=lfs merge=lfs -text
 hw3/part1/yolo11m.pt filter=lfs diff=lfs merge=lfs -text
+hw3/part1/data/* filter=lfs diff=lfs merge=lfs -text
