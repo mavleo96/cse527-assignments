@@ -11,18 +11,78 @@ This repository contains assignments for the CSE 527 Computer Vision course at S
 │   ├── hw1_part1.ipynb
 │   ├── hw1_part2.ipynb
 │   ├── hw1_part3.ipynb
-│   └── source_images
+│   └── source_images/
 ├── hw2
 │   ├── data/
 │   └── hw2_part1.ipynb
 ├── hw3
 │   ├── coco.zip
-│   ├── part1/
-│   ├── part2/
-│   └── part3/
+│   ├── part1
+│   │   ├── CryoEM
+│   │   │   ├── data.yaml
+│   │   │   ├── images/
+│   │   │   ├── labels/
+│   │   │   └── particle_coordinates/
+│   │   ├── calibri.ttf
+│   │   ├── data
+│   │   │   └── MNIST/
+│   │   ├── hw3_part1.ipynb
+│   │   └── yolo11m.pt
+│   ├── part2
+│   │   ├── detr
+│   │   │   ├── README.md
+│   │   │   ├── d2
+│   │   │   │   ├── README.md
+│   │   │   │   ├── configs/
+│   │   │   │   ├── converter.py
+│   │   │   │   ├── detr
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── config.py
+│   │   │   │   │   ├── dataset_mapper.py
+│   │   │   │   │   └── detr.py
+│   │   │   │   └── train_net.py
+│   │   │   ├── datasets
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── coco.py
+│   │   │   │   ├── coco_eval.py
+│   │   │   │   ├── coco_panoptic.py
+│   │   │   │   ├── panoptic_eval.py
+│   │   │   │   └── transforms.py
+│   │   │   ├── engine.py
+│   │   │   ├── hubconf.py
+│   │   │   ├── instances_train2017.json
+│   │   │   ├── main.py
+│   │   │   ├── models
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── backbone.py
+│   │   │   │   ├── detr.py
+│   │   │   │   ├── matcher.py
+│   │   │   │   ├── position_encoding.py
+│   │   │   │   ├── segmentation.py
+│   │   │   │   └── transformer.py
+│   │   │   ├── requirements.txt
+│   │   │   └── util/
+│   │   └── hw3_part2.ipynb
+│   └── part3
+│       ├── hw3_part3.ipynb
+│       └── unet
+│           ├── coco.py
+│           ├── main.py
+│           ├── transforms.py
+│           ├── unet.py
+│           └── util/
 └── hw4
-    ├── part1/
-    └── part2/
+    ├── part1
+    │   ├── Config.py
+    │   ├── RGB-T234.zip
+    │   ├── SiamFCMModel.pth
+    │   ├── SiamFCVideo.zip
+    │   ├── SiamNet.py
+    │   └── hw4_part1.ipynb
+    └── part2
+        ├── hw4_part2.ipynb
+        ├── resources/
+        └── source_images/
 ```
 
 ## Setup Instructions
